@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+
+        <item
+            android:id="@+id/nav_home1"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address1"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+
+        <item
+            android:id="@+id/nav_home2"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address2"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+        <item
+            android:id="@+id/nav_home3"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address3"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+
+        <item
+            android:id="@+id/nav_home4"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address4"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+        <item
+            android:id="@+id/nav_home5"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address5"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+        <item
+            android:id="@+id/nav_home6"
+            android:title="@string/menu_title_home"
+            android:icon="@drawable/logout"/>
+
+        <item
+            android:id="@+id/nav_address6"
+            android:title="@string/menu_title_address"
+            android:icon="@drawable/edit_pencil"/>
+
+
+    </group>
+
+    <!--<group-->
+        <!--android:id="@+id/group_contact"-->
+        <!--android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_contact"-->
+            <!--android:title=""-->
+            <!--app:actionLayout="@layout/layout_contact" />-->
+    <!--</group>-->
+
+</menu>
