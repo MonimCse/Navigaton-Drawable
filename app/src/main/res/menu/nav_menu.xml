@@ -6,69 +6,69 @@
         <item
             android:id="@+id/nav_home"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+            />
 
         <item
             android:id="@+id/nav_address"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+           />
 
         <item
             android:id="@+id/nav_home1"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+           />
 
         <item
             android:id="@+id/nav_address1"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+           />
 
         <item
             android:id="@+id/nav_home2"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+           />
 
         <item
             android:id="@+id/nav_address2"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+          />
         <item
             android:id="@+id/nav_home3"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+     />
 
         <item
             android:id="@+id/nav_address3"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+           />
 
         <item
             android:id="@+id/nav_home4"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+           />
 
         <item
             android:id="@+id/nav_address4"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+           />
         <item
             android:id="@+id/nav_home5"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+            />
 
         <item
             android:id="@+id/nav_address5"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+           />
         <item
             android:id="@+id/nav_home6"
             android:title="@string/menu_title_home"
-            android:icon="@drawable/logout"/>
+            />
 
         <item
             android:id="@+id/nav_address6"
             android:title="@string/menu_title_address"
-            android:icon="@drawable/edit_pencil"/>
+            />
 
 
     </group>

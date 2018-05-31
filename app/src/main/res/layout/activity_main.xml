@@ -8,20 +8,33 @@
     android:id="@+id/layout_drawer"
     tools:context=".MainActivity">
 
-    <android.support.design.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <Button
+          android:id="@+id/btn_one"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:onClick="sendValue"
+          android:tag="1"
+          android:text="1"
+      />
+      <Button
+          android:id="@+id/btn_two"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="2"/>
+      <Button
+          android:id="@+id/btn_three"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:onClick="sendValue"
+          android:tag="2"
+          android:text="3"/>
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+  </LinearLayout>
 
-
-    </android.support.design.widget.CoordinatorLayout>
 
 <android.support.design.widget.NavigationView
     android:id="@+id/view_navigation"
@@ -29,6 +42,8 @@
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:fitsSystemWindows="true"
+    android:onClick="sendValue"
+    android:tag="3"
     app:headerLayout="@layout/nav_header"
     app:menu="@menu/nav_menu">
 
